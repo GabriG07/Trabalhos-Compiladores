@@ -72,7 +72,6 @@ java -jar target\T2-1.0-SNAPSHOT-jar-with-dependencies.jar casos-de-teste\entrad
   Fim da compilacao
   ```
 
-
   ```
   Linha 14: comentario nao fechado
   Fim da compilacao
