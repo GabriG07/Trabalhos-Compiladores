@@ -33,4 +33,4 @@ OP_PERC     : '%' ;
 //Regras de erro. Capturam situações léxicas inválidas.
 COMENTARIO_NAO_FECHADO : '{' ~('}' | '\n' | '\r')* ;
 CADEIA_NAO_FECHADA   : '"' ( ~('"' | '\n' | '\r') )*;
-ERRO : . ; //Encontra qualquer token que não foi reconhecido por nenhuma regra anterior
+ERRO : . ; //Encontra qualquer token  que não foi reconhecido por nenhuma regra anterior
