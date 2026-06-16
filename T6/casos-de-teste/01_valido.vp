@@ -1,0 +1,32 @@
+// Programa correto
+
+// Composicao padrão de ataque para Ascent
+mapa Ascent
+
+composicao {
+    Jett
+    Sova
+    Omen
+    Killjoy
+    Sage
+}
+
+execute site A {
+    Sova usa "Owl Drone"
+    Sova usa "Recon Bolt" em "Boba"
+    Omen usa "Dark Cover" em "Mid", "Market"
+    Killjoy usa "Nanoswarm" em "Lixo"
+    Jett usa "Cloudburst" em "entrada A"
+    Jett entra
+    Sova ultimate "Hunter's Fury" em "Boba"
+    Jett planta
+}
+
+execute site B {
+    Omen usa "Dark Cover" em "CT", "Boost"
+    Sova usa "Shock Bolt" em "Fundo"
+    Sova usa "Shock Bolt" em "Cubby"
+    Sage usa "Slow Orb" em "Escada"
+    Jett entra
+    Jett planta
+}
