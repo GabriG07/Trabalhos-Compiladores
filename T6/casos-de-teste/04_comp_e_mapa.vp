@@ -1,0 +1,5 @@
+mapa Vento // mapa inexistente
+composicao { Jett Sova Omen Jett } // 4 agentes e Jett repetido
+execute site Z { // site inexistente
+    Reyna usa "Leer" // Reyna nao esta na composicao
+}

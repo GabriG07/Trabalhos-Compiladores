@@ -3,7 +3,7 @@
 mapa Bind
 composicao { Jett Sova Omen Killjoy Sage }
 execute site A {
-    Jett usa "Recon Bolt" em "Boba"        // Jett nao tem Recon Bolt
-    Sova usa "Blade Storm"                   // Blade Storm é ultimate da Jett (deve ser "ultimate" e não "usa")
-    Omen ultimate "Dark Cover"               // Dark Cover não é ultimate
+    Jett usa "Recon Bolt" em "Boba" // Jett nao tem Recon Bolt
+    Sova usa "Blade Storm" // Blade Storm é ultimate da Jett (deve ser "ultimate" e não "usa")
+    Omen ultimate "Dark Cover" // Dark Cover não é ultimate
 }

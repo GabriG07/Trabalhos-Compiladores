@@ -1,0 +1,6 @@
+mapa Haven
+composicao { Jett Sova Omen Killjoy Sage }
+execute site C {
+    Sova usa "Recon Bolt" em "P1"
+    Sova usa "Recon Bolt" em "P2" // Recon Bolt tem 1 carga
+}

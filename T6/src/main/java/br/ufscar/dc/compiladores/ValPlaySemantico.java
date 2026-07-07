@@ -98,7 +98,7 @@ public class ValPlaySemantico extends ValPlayBaseVisitor<Void> {
             Agente a = BancoDeAgentes.AGENTES.get(agente);
             String hab = texto(u.CADEIA().get(0));
             if (hab.equals(a.ultimate)) {
-                ValPlaySemanticoUtils.adicionarErro(linha,"'" + hab + "' e a ultimate de " + agente + "; use 'ultimate' em vez de 'usa'");
+                ValPlaySemanticoUtils.adicionarErro(linha,"'" + hab + "' eh a ultimate de " + agente + "; use 'ultimate' em vez de 'usa'");
             } else if (!a.habilidades.containsKey(hab)) {
                 ValPlaySemanticoUtils.adicionarErro(linha,agente + " nao possui a habilidade '" + hab + "'");
             } else {
@@ -120,7 +120,7 @@ public class ValPlaySemantico extends ValPlayBaseVisitor<Void> {
             String hab = texto(ul.CADEIA().get(0));
             if (!hab.equals(a.ultimate)) {
                 if (a.habilidades.containsKey(hab)) {
-                    ValPlaySemanticoUtils.adicionarErro(linha,"'" + hab + "' nao e a ultimate de " + agente + "; use 'usa'");
+                    ValPlaySemanticoUtils.adicionarErro(linha,"'" + hab + "' nao eh a ultimate de " + agente + "; use 'usa'");
                 } else {
                     ValPlaySemanticoUtils.adicionarErro(linha,agente + " nao possui a ultimate '" + hab + "'");
                 }

@@ -1,0 +1,5 @@
+mapa Split
+composicao { Jett Phoenix Raze Neon Yoru } // 5 duelistas: sem controlador/iniciador
+execute site A {
+    Jett entra
+}
